@@ -7,60 +7,60 @@ export default function AmoryParkChar() {
             <h1 className="text-center text-5xl mt-7">Characteristics of Amory Park</h1>
             <AudioPlayer playDesc="Listen to the park's ambient sounds while you scroll!" src="/audio/park-6026.mp3"/>
             <div className="grow">
-            <CharacteristicsContainerL src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Dead Standing Trees" desc={
+            <CharacteristicsContainerL src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Surrounding Trees" desc={
                 <ul className="list-disc pl-5 space-y-1">
-                <li>Dead trees that remain upright after dying</li>
-                <li>Provide critical habitats for various species through its cavities and decaying wood</li>
-                <li>Support birds, insects, and fungi biodiversity</li>
+                <li>Fully grown trees surrounding the perimeter of the park</li>
+                <li>Provides shade, increases appeal, and acts as natural boundary between the park and adjacent areas</li>
+                <li>Offers comfort to visitors and contributes to the park&apos;s aesthetics.</li>
                 </ul>
             }/>
-            <CharacteristicsContainerR src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Rotting Logs" desc={
+            <CharacteristicsContainerR src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Flat, Graded Lawns" desc={
                 <ul className="list-disc pl-5 space-y-1">
-                <li>Fallen trees and branches in any stage of decomposition on the forest floor</li>
-                <li>Contributes to nutrient recycling through releasing nutrients into the soil as decomposition occurs</li>
-                <li>Acts as microhabitat by providing moisture and shelter to certain organisms</li>
+                <li>Level, open grassy areas intended for recreational use</li>
+                <li>Facilitates activities such as picnics, sunbathing, sports, and fetch with one&apos;s dog</li>
+                <li>Easy to maintain and feels inviting to people</li>
                 </ul>
             }/>
-            <CharacteristicsContainerL src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745515017/portfolioAfiq-8_b5nxfz.jpg" title="Thick Ground Vegetation" desc={
+            <CharacteristicsContainerL src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745515017/portfolioAfiq-8_b5nxfz.jpg" title="Trimmed Lawn Grass" desc={
                 <ul className="list-disc pl-5 space-y-1">
-                <li>Dense growth of low-height plants and shrubs</li>
-                <li>Provides cover from predators and acts as nesting site</li>
-                <li>Root systems prevent erosion and maintain soil integrity</li>
+                <li>Regularly mowed grass areas throughout the park</li>
+                <li>Maintains a neat and clean aesthetic as well as deterring pests that might inhabit taller or denser grassy areas</li>
+                <li>Enhances the park&apos;s aesthetics</li>
                 </ul>
             }/>
-            <CharacteristicsContainerR src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Patchy Ecosystem Structure" desc={
+            <CharacteristicsContainerR src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Paved Walkways and Paths" desc={
                 <ul className="list-disc pl-5 space-y-1">
-                <li>Dead trees that remain upright after dying</li>
-                <li>Provide critical habitats for various species through its cavities and decaying wood</li>
-                <li>Support birds, insects, and fungi biodiversity</li>
+                <li>Designated walking paths made of materials like concrete or asphalt</li>
+                <li>Provides safe and accessible routes for pedestrians</li>
+                <li>Facilitates movement around the park and ensures accesibility for everyone</li>
                 </ul>
             }/>
-            <CharacteristicsContainerL src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Leaf Litter and Organic Ground Cover" desc={
+            <CharacteristicsContainerL src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Athletic Facilities" desc={
                 <ul className="list-disc pl-5 space-y-1">
-                <li>Pile of fallen leaves, twigs, and other organic material across the forest floor</li>
-                <li>Serves as food source for decomposers, contributing to nutrient recycling</li>
-                <li>Provides habitat for decomposers and small fauna as it maintains moisture and has insulation</li>
+                <li>Designated areas equipped for specific sports activities</li>
+                <li>Encourages playing sports and building a community through doing so</li>
+                <li>Promotes health and social interaction amongst park-goers</li>
                 </ul>
             }/>
-            <CharacteristicsContainerR src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Sparse to Dense Canopy Variation" desc={
+            <CharacteristicsContainerR src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Benches and Picnic Tables" desc={
                 <ul className="list-disc pl-5 space-y-1">
-                <li>Different tree canopy densities &#40;open areas to dense coverage&#41;</li>
-                <li>Creates different light intensities, promoting growth for various species</li>
-                <li>Promotes wildlife diversity and enables succession process</li>
+                <li>Seating areas placed throughout the park</li>
+                <li>Provides area for socializing and dining</li>
+                <li>Encourages longer stays, diversify accessible activities in the park, and increases enjoyment of being at the park</li>
                 </ul>
             }/>
-            <CharacteristicsContainerL src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Minimal Environmental Disturbance" desc={
+            <CharacteristicsContainerL src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Parking Areas" desc={
                 <ul className="list-disc pl-5 space-y-1">
-                <li>Limiting human activities to not disturb the ecosystem</li>
-                <li>Minimizes stress on wildlife and prevents habitat degradation</li>
-                <li>Example: Prohibition of ball games and dog walking</li>
+                <li>Designated spaces for vehicle parking</li>
+                <li>Provides easy access to park for visitors traveling by car</li>
+                <li>Improves accessibility and increases convenience of the park</li>
                 </ul>
             }/>
-            <CharacteristicsContainerR src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Sustainable Design Practices" desc={
+            <CharacteristicsContainerR src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Designated Dog Areas" desc={
                 <ul className="list-disc pl-5 space-y-1">
-                <li>Environmentally-friendly strategies in the establishment and management of the sanctuary</li>
-                <li>Enables long-term conservation and allows for human interaction to promote coexistence between humans and nature</li>
-                <li>Example: Informative signs and use of native plants</li>
+                <li>Specific zones where dogs are allowed off-leash under certain conditions</li>
+                <li>Provide a safe environment for dogs to exercise and socialize</li>
+                <li>Accommodates to pet owners and promotes responsible dog ownership</li>
                 </ul>
             }/>
             </div>
