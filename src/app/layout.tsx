@@ -16,7 +16,8 @@ const geistMono = Geist_Mono({
 const newsreader = Newsreader({
   variable: "--font-newsreader",
   weight: "500",
-  style: "normal"
+  style: "normal",
+  subsets: ["latin"]
 })
 
 export const metadata: Metadata = {
