@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function HallsPond() {
     return(
         <div className="flex flex-col items-center justify-center w-dvw">
-            <h1 className="mt-7 w-[100%] text-5xl text-center">Hall's Pond Sanctuary</h1>
+            <h1 className="mt-7 w-[100%] text-5xl text-center">Hall&apos;s Pond Sanctuary</h1>
             <div className="flex flex-row justify-evenly items-center mt-20">
                 <p className="w-[50%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <Image className="border-2 border-amber-50"src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" alt="" width={450} height={450}/>
