@@ -1,11 +1,11 @@
 import CharacteristicsContainerL from "../../../../components/characteristicsContainerL"
 import CharacteristicsContainerR from "../../../../components/characteristicsContainerR"
 import AudioPlayer from "../../../../components/playbutton"
-export default function HallsPondChar() {
+export default function AmoryParkChar() {
     return (
         <div className="flex flex-col h-dvh w-dvw items-center">
-            <h1 className="text-center text-5xl mt-7">Characteristics of Hall&apos;s Pond Sanctuary</h1>
-            <AudioPlayer playDesc="Listen to the sounds of nature while you scroll!" src="/audio/nature-ambience-323729.mp3"/>
+            <h1 className="text-center text-5xl mt-7">Characteristics of Amory Park</h1>
+            <AudioPlayer playDesc="Listen to the park's ambient sounds while you scroll!" src="/audio/park-6026.mp3"/>
             <div className="grow">
             <CharacteristicsContainerL src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Dead Standing Trees" desc={
                 <ul className="list-disc pl-5 space-y-1">

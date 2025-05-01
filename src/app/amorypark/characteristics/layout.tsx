@@ -1,4 +1,4 @@
-export default function AmoryParkLayout({
+export default function AmoryParkCharLayout({
     children,
   }: {
     children: React.ReactNode;
