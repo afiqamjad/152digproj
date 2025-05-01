@@ -31,12 +31,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="h-dvh" lang="en">
+    <html className="h-dvh w-dvw" lang="en">
       <body
         className={`h-full flex flex-col justify-center items-center ${geistSans.variable} ${geistMono.variable} ${newsreader.variable} antialiased`}
       >
         <NavBar/>
-        <main className="grow">
+        <main className="grow max-w-[100%]">
         {children}
         </main>
       </body>

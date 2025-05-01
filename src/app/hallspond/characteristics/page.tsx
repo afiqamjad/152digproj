@@ -1,12 +1,13 @@
 import CharacteristicsContainerL from "../../../../components/characteristicsContainerL"
 import CharacteristicsContainerR from "../../../../components/characteristicsContainerR"
 import AudioPlayer from "../../../../components/playbutton"
+import VideoPlayer from "../../../../components/videoplayer"
 export default function HallsPondChar() {
     return (
-        <div className="flex flex-col h-dvh w-dvw items-center">
+        <div className="flex flex-col h-dvh max-w-[100%] items-center">
             <h1 className="text-center text-5xl mt-7">Characteristics of Hall&apos;s Pond Sanctuary</h1>
             <AudioPlayer playDesc="Listen to the sounds of nature while you scroll!" src="/audio/nature-ambience-323729.mp3"/>
-            <div className="grow">
+            <div className="grow max-w-full">
             <CharacteristicsContainerL src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Dead Standing Trees" desc={
                 <ul className="list-disc pl-5 space-y-1">
                 <li>Dead trees that remain upright after dying</li>
@@ -63,6 +64,10 @@ export default function HallsPondChar() {
                 <li>Example: Informative signs and use of native plants</li>
                 </ul>
             }/>
+            </div>
+            <h2 className="text-5xl text-center mt-7 mb-14">Take a Walk Around Hall&apos;s Pond Sanctuary!</h2>
+            <div className="flex justify-center pb-[7%] w-[90%] h-[90%]">
+                <VideoPlayer/>
             </div>
         </div>
     )

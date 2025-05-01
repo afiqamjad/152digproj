@@ -1,11 +1,12 @@
 import CharacteristicsContainerL from "../../../../components/characteristicsContainerL"
 import CharacteristicsContainerR from "../../../../components/characteristicsContainerR"
 import AudioPlayer from "../../../../components/playbutton"
+import VideoPlayer from "../../../../components/videoplayer"
 export default function AmoryParkChar() {
     return (
-        <div className="flex flex-col h-dvh w-dvw items-center">
+        <div className="flex flex-col h-dvh max-w-dvw items-center">
             <h1 className="text-center text-5xl mt-7">Characteristics of Amory Park</h1>
-            <AudioPlayer playDesc="Listen to the park's ambient sounds while you scroll!" src="/audio/park-6026.mp3"/>
+            <AudioPlayer playDesc="Listen to the park's ambience while you scroll!" src="/audio/park-6026.mp3"/>
             <div className="grow">
             <CharacteristicsContainerL src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745552646/exHallsPond_msdydn.png" title="Surrounding Trees" desc={
                 <ul className="list-disc pl-5 space-y-1">
@@ -63,6 +64,10 @@ export default function AmoryParkChar() {
                 <li>Accommodates to pet owners and promotes responsible dog ownership</li>
                 </ul>
             }/>
+            </div>
+            <h2 className="text-5xl text-center mt-7 mb-14">Take a Walk Around Amory Park!</h2>
+            <div className="flex justify-center pb-[7%] w-[90%] h-[90%]">
+                <VideoPlayer/>
             </div>
         </div>
     )
