@@ -9,8 +9,7 @@ const nextConfig: NextConfig = {
         hostname: 'res.cloudinary.com',
         port: '',                       
         pathname: '/dfcqlwnxu/image/upload/**',
-      },
-    ],
+      },]
   },
 };
 

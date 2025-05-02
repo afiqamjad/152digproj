@@ -1,7 +1,11 @@
-export default function VideoPlayer() {
+interface VidPlayerProps {
+  src: string
+}
+
+export default function VideoPlayer({src} : VidPlayerProps) {
     return (
       <iframe
-        src="https://www.youtube.com/embed/cxCW3sjELV4"
+        src={src}
         allowFullScreen
         loading="lazy"
         style={{
