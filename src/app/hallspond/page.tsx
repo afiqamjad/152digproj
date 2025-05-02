@@ -9,7 +9,7 @@ export default function HallsPond() {
                 <Image className="border-2 border-amber-50"src="https://res.cloudinary.com/dfcqlwnxu/image/upload/w_1200,q_75/v1746156589/halls-1_gu6vrq.jpg" alt="" width={650} height={450}/>
             </div>
             <div className="grow w-[100%] flex flex-row justify-center items-center mt-24">
-                <Link href="/amorypark/characteristics" className="border-2 rounded-2xl px-3.5 py-0.5 hover:bg-slate-50/65 text-2xl h-10">Click here to learn more about the sanctuary&apos;s characteristics!</Link>
+                <Link href="/hallspond/characteristics" className="border-2 rounded-2xl px-3.5 py-0.5 hover:bg-slate-50/65 text-2xl h-10">Click here to learn more about the sanctuary&apos;s characteristics!</Link>
             </div>
         </div>
     )
